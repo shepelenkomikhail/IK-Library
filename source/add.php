@@ -8,27 +8,38 @@ $description = $_POST['description'] ?? '';
 $year = $_POST['year'] ?? '';
 $image = $_POST['image'] ?? '';
 $planet = $_POST['planet'] ?? '';
+$genre = $_POST['genre'] ?? '';
 
 if(count($_POST) > 0) {
     $errors = [];
 
-    if(trim($title) === '')
+    if (!isset($title) || trim($title) === '') {
         $errors['title'] = 'Title field is required!';
+    }
 
-    if(trim($author) === '')
+    if (!isset($author) || trim($author) === '') {
         $errors['author'] = 'Author field is required!';
+    }
 
-    if(trim($description) === '')
+    if (!isset($description) || trim($description) === '') {
         $errors['description'] = 'Description field is required!';
+    }
 
-    if(trim($year) === '' || !is_numeric($year))
+    if (!isset($year) || trim($year) === '' || !is_numeric($year)) {
         $errors['year'] = 'Year must be a valid number!';
+    }
 
-    if(trim($image) === '')
+    if (!isset($image) || trim($image) === '') {
         $errors['image'] = 'Image field is required!';
+    }
 
-    if(trim($planet) === '')
+    if (!isset($planet) || trim($planet) === '') {
         $errors['planet'] = 'Planet field is required!';
+    }
+
+    if (!isset($genre)) {
+        $errors['genre'] = 'Genre field is required!';
+    }
 
     $errors = array_map(function ($e) {
         return "<span style='color: red'> <br> $e </span>";
@@ -44,6 +55,7 @@ if(count($_POST) > 0) {
             'year' => (int)$year,
             'image' => $image,
             'planet' => $planet,
+            'genre' => $genre,
             'feedbacks' => []
         ];
         file_put_contents('books.json',json_encode($books,JSON_PRETTY_PRINT));
@@ -54,6 +66,8 @@ if(count($_POST) > 0) {
         $year = '';
         $image = '';
         $planet = '';
+        $genre = '';
+
     }
 }
 ?>
@@ -88,6 +102,13 @@ if(count($_POST) > 0) {
             <option value="book_cover_6.png">book_cover_6.png</option>
         </select>
         <?= $errors['image'] ?? '' ?><br>
+        Genre <br>
+        <select class="mb-3 border-2" name="genre">
+            <option value="Science Fiction" <?= ($genre == 'Science Fiction') ? 'selected' : '' ?>>Science Fiction</option>
+            <option value="Fantasy" <?= ($genre == 'Fantasy') ? 'selected' : '' ?>>Fantasy</option>
+            <option value="Adventure" <?= ($genre == 'Adventure') ? 'selected' : '' ?>>Adventure</option>
+        </select>
+        <?= $errors['genre'] ?? '' ?><br>
         Planet <br>
         <input class="mb-3 border-2" type="text" name="planet" value="<?= $planet ?>"> <?= $errors['planet'] ?? '' ?><br>
         <button class="btn btn-primary mb-3" type="submit">Add Book</button><br>

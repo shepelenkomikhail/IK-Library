@@ -98,10 +98,8 @@ if (count($_POST) > 0) {
                                         <?php endforeach; ?>
                                     </ul>
                                     <?php
-                                    $totalRating = array_reduce($book['feedbacks'], function ($carry, $feedback) {
-                                        return $carry + $feedback['rating'];
-                                    }, 0);
-                                    $averageRating = $totalRating / count($book['feedbacks']);
+                                        $totalRating = array_reduce($book['feedbacks'], function ($carry, $feedback) {return $carry + $feedback['rating'];}, 0);
+                                        $averageRating = $totalRating / count($book['feedbacks']);
                                     ?>
                                     <p class="mt-3">Average Rating: <?= number_format($averageRating, 2) ?></p>
                                 </div>

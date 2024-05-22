@@ -56,9 +56,6 @@ if(count($_POST) > 0) {
         ];
 
         file_put_contents('books.json', json_encode($booksData, JSON_PRETTY_PRINT));
-
-        //header("Location: index.php");
-        exit;
     }
 }
 ?>

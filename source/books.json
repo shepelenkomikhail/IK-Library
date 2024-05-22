@@ -35,43 +35,9 @@
         "title": "The Lost Civilization",
         "author": "Emily St. John Mandel",
         "description": "A gripping tale of explorers stumbling upon the remains of a lost civilization deep within the Amazon rainforest. As they uncover the secrets of this ancient society, they must confront their own inner demons and face the consequences of tampering with forces beyond their comprehension.",
-        "year": 2012,
+        "year": 2014,
         "image": "book_cover_3.png",
         "planet": "Earth",
-        "feedbacks": [
-            {
-                "rating": 3,
-                "comment": "Interesting premise."
-            },
-            {
-                "rating": 4,
-                "comment": "Well-written."
-            },
-            {
-                "rating": 2,
-                "comment": "Not my cup of tea."
-            },
-            {
-                "rating": "5",
-                "comment": "Good!\r\n"
-            },
-            {
-                "rating": "5",
-                "comment": "Good!"
-            },
-            {
-                "rating": "5",
-                "comment": "Good!"
-            },
-            {
-                "rating": "5",
-                "comment": "Well!"
-            },
-            {
-                "rating": "5",
-                "comment": "Well book!"
-            }
-        ],
         "genre": "Adventure"
     },
     "book3": {
