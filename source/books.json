@@ -1,0 +1,178 @@
+{
+    "book0": {
+        "title": "City of the Gods",
+        "author": "Sonny Whitelaw",
+        "description": "Notes about Argos, the planet originally under the control of the Goa'uld Pelops. A definitive Greek ancestry decorates the structures, as well as the clothing of the Argosians, the planets occupants who prefered to call themselves the Chosen. For some time Pelops operated on the planet, experimenting on the human population, much like Nirrti has done, attempting to expand their lifespan.",
+        "year": 2005,
+        "image": "book_cover_1.png",
+        "planet": "P3X-8596",
+        "feedbacks": [
+            {
+                "rating": 4,
+                "comment": "Great book!"
+            },
+            {
+                "rating": 5,
+                "comment": "One of my favorites!"
+            },
+            {
+                "rating": 3,
+                "comment": "Interesting read."
+            }
+        ]
+    },
+    "book1": {
+        "title": "The Power Behind The Throne",
+        "author": "Steven Savile",
+        "description": "P3X-797 is a world divided into a dark and light side. The Stargate resides on the dark side of the planet where the 'Touched' exist. The light side is inhabited by the 'Untouched'. A histaminalytic virus inhabits the world, forcing anyone with histamine in their bodies to succumb to primeval tendencies. The leader of the light side is Tuplo.",
+        "year": 2007,
+        "image": "book_cover_2.png",
+        "planet": "P3X-797",
+        "feedbacks": [
+            {
+                "rating": 5,
+                "comment": "Brilliant story!"
+            },
+            {
+                "rating": 4,
+                "comment": "Couldn't put it down!"
+            },
+            {
+                "rating": 4,
+                "comment": "Loved it!"
+            }
+        ]
+    },
+    "book2": {
+        "title": "The Lost Civilization",
+        "author": "Emily St. John Mandel",
+        "description": "A gripping tale of explorers stumbling upon the remains of a lost civilization deep within the Amazon rainforest. As they uncover the secrets of this ancient society, they must confront their own inner demons and face the consequences of tampering with forces beyond their comprehension.",
+        "year": 2012,
+        "image": "book_cover_3.png",
+        "planet": "Earth",
+        "feedbacks": [
+            {
+                "rating": 3,
+                "comment": "Interesting premise."
+            },
+            {
+                "rating": 4,
+                "comment": "Well-written."
+            },
+            {
+                "rating": 2,
+                "comment": "Not my cup of tea."
+            }
+        ]
+    },
+    "book3": {
+        "title": "Echoes of Eternity",
+        "author": "David Mitchell",
+        "description": "In a distant future where humanity has spread across the galaxy, a group of adventurers discovers a mysterious artifact that holds the key to unlocking the secrets of the universe. But they soon find themselves embroiled in a deadly game of cat and mouse with rival factions vying for control of the artifact.",
+        "year": 2022,
+        "image": "book_cover_4.png",
+        "planet": "Various",
+        "feedbacks": [
+            {
+                "rating": 5,
+                "comment": "Mind-blowing!"
+            },
+            {
+                "rating": 4,
+                "comment": "Engaging plot."
+            },
+            {
+                "rating": 3,
+                "comment": "Decent read."
+            }
+        ]
+    },
+    "book4": {
+        "title": "The Quantum Conspiracy",
+        "author": "Philip K. Dick",
+        "description": "A mind-bending exploration of parallel universes, alternate realities, and the nature of consciousness. As the protagonist delves deeper into the mysteries of quantum physics, they begin to question the very fabric of reality and their place within it.",
+        "year": 1969,
+        "image": "book_cover_5.png",
+        "planet": "Multiverse",
+        "feedbacks": [
+            {
+                "rating": 5,
+                "comment": "Fascinating concepts!"
+            },
+            {
+                "rating": 3,
+                "comment": "Hard to follow."
+            },
+            {
+                "rating": 4,
+                "comment": "Thought-provoking."
+            }
+        ]
+    },
+    "book5": {
+        "title": "Infinite Horizons",
+        "author": "Arthur C. Clarke",
+        "description": "Set in a future where humanity has mastered interstellar travel, a group of pioneers embarks on a journey to explore the farthest reaches of the galaxy. Along the way, they encounter alien civilizations, ancient artifacts, and the secrets of the cosmos.",
+        "year": 1976,
+        "image": "book_cover_6.png",
+        "planet": "Galaxy",
+        "feedbacks": [
+            {
+                "rating": 4,
+                "comment": "Epic adventure!"
+            },
+            {
+                "rating": 5,
+                "comment": "Must-read for sci-fi fans."
+            },
+            {
+                "rating": 4,
+                "comment": "Captivating storyline."
+            }
+        ]
+    },
+    "book6": {
+        "title": "The Last Starship",
+        "author": "Isaac Asimov",
+        "description": "As the sun begins to die and humanity faces extinction, a desperate plan is hatched to build a massive starship capable of carrying the last remnants of humanity to a new home among the stars. But as the journey unfolds, the crew must confront internal strife, external threats, and the harsh realities of life in space.",
+        "year": 1954,
+        "image": "book_cover_1.png",
+        "planet": "Earth",
+        "feedbacks": [
+            {
+                "rating": 3,
+                "comment": "Interesting concept."
+            },
+            {
+                "rating": 2,
+                "comment": "Didn't live up to expectations."
+            },
+            {
+                "rating": 4,
+                "comment": "Good character development."
+            }
+        ]
+    },
+    "book7": {
+        "title": "The Time Traveler's Dilemma",
+        "author": "H.G. Wells",
+        "description": "In this classic tale of time travel and paradoxes, a scientist invents a machine capable of traversing the fourth dimension. But as he journeys through time, he discovers that meddling with the past can have unforeseen consequences, leading to a series of events that threaten to unravel the fabric of reality itself.",
+        "year": 1895,
+        "image": "book_cover_2.png",
+        "planet": "Earth",
+        "feedbacks": [
+            {
+                "rating": 4,
+                "comment": "Classic sci-fi."
+            },
+            {
+                "rating": 3,
+                "comment": "Enjoyable read."
+            },
+            {
+                "rating": 5,
+                "comment": "Timeless masterpiece."
+            }
+        ]
+    }
+}

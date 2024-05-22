@@ -1,0 +1,14 @@
+{
+    "mike": {
+        "username": "mike",
+        "password": "$2y$10$s4jzQ1BeysKOMJjG0IKmkuy.WDG5uKdiM0DV6c81ubC1vhvZk1fUq",
+        "email": "mikhael2005@gmail.com",
+        "role": "user"
+    },
+    "admin": {
+        "username": "admin",
+        "password": "$2y$10$9IRUU5k4YE7PXfHNAJSbV.yodxIDCJuL9sTVarGTxFCqNMC8qwUxK",
+        "email": "admin@gmail.com",
+        "role": "admin"
+    }
+}
