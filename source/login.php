@@ -22,6 +22,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if($id !== null){
         if(password_verify($password, $reg[$id]['password'])){
             $_SESSION['userid'] = $id;
+            $_SESSION['role'] = $reg[$id]['role'];
+
+            $reg[$id]['lastlog'] = date('Y-m-d H:i:s');
+            file_put_contents('user.json', json_encode($reg, JSON_PRETTY_PRINT));
+
             header("Location: index.php");
             exit;
         }
@@ -55,7 +60,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         Password <br>
         <input class="mb-3 border-2" type="password" name="password" value="<?= $password ?>"> <br>
         <button class="btn btn-primary mb-3" type="submit">Submit</button> <br>
-        <a href="register.php" class="hover:underline">Register</a>
+        <a href="register.php" class="hover:underline">Register</a> <br>
+        <a href="index.php" class="hover:underline">Go as a Guest</a>
         <span style="color:red"><br><?= $error ?></span>
     </form>
 </div>

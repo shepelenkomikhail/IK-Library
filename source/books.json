@@ -6,20 +6,7 @@
         "year": 2005,
         "image": "book_cover_1.png",
         "planet": "P3X-8596",
-        "feedbacks": [
-            {
-                "rating": 4,
-                "comment": "Great book!"
-            },
-            {
-                "rating": 5,
-                "comment": "One of my favorites!"
-            },
-            {
-                "rating": 3,
-                "comment": "Interesting read."
-            }
-        ]
+        "genre": "Fantasy"
     },
     "book1": {
         "title": "The Power Behind The Throne",
@@ -41,7 +28,8 @@
                 "rating": 4,
                 "comment": "Loved it!"
             }
-        ]
+        ],
+        "genre": "Fantasy"
     },
     "book2": {
         "title": "The Lost Civilization",
@@ -62,8 +50,29 @@
             {
                 "rating": 2,
                 "comment": "Not my cup of tea."
+            },
+            {
+                "rating": "5",
+                "comment": "Good!\r\n"
+            },
+            {
+                "rating": "5",
+                "comment": "Good!"
+            },
+            {
+                "rating": "5",
+                "comment": "Good!"
+            },
+            {
+                "rating": "5",
+                "comment": "Well!"
+            },
+            {
+                "rating": "5",
+                "comment": "Well book!"
             }
-        ]
+        ],
+        "genre": "Adventure"
     },
     "book3": {
         "title": "Echoes of Eternity",
@@ -84,8 +93,13 @@
             {
                 "rating": 3,
                 "comment": "Decent read."
+            },
+            {
+                "rating": "3",
+                "comment": "Not good :-("
             }
-        ]
+        ],
+        "genre": "Science Fiction"
     },
     "book4": {
         "title": "The Quantum Conspiracy",
@@ -107,7 +121,8 @@
                 "rating": 4,
                 "comment": "Thought-provoking."
             }
-        ]
+        ],
+        "genre": "Science Fiction"
     },
     "book5": {
         "title": "Infinite Horizons",
@@ -116,20 +131,7 @@
         "year": 1976,
         "image": "book_cover_6.png",
         "planet": "Galaxy",
-        "feedbacks": [
-            {
-                "rating": 4,
-                "comment": "Epic adventure!"
-            },
-            {
-                "rating": 5,
-                "comment": "Must-read for sci-fi fans."
-            },
-            {
-                "rating": 4,
-                "comment": "Captivating storyline."
-            }
-        ]
+        "genre": "Adventure"
     },
     "book6": {
         "title": "The Last Starship",
@@ -151,7 +153,8 @@
                 "rating": 4,
                 "comment": "Good character development."
             }
-        ]
+        ],
+        "genre": "Science Fiction"
     },
     "book7": {
         "title": "The Time Traveler's Dilemma",
@@ -160,19 +163,7 @@
         "year": 1895,
         "image": "book_cover_2.png",
         "planet": "Earth",
-        "feedbacks": [
-            {
-                "rating": 4,
-                "comment": "Classic sci-fi."
-            },
-            {
-                "rating": 3,
-                "comment": "Enjoyable read."
-            },
-            {
-                "rating": 5,
-                "comment": "Timeless masterpiece."
-            }
-        ]
+        "feedbacks": [],
+        "genre": "Science Fiction"
     }
 }

@@ -31,20 +31,20 @@ The most serious consequence of a disciplinary offence is dismissal from the uni
 [x] 0.5 points Logout
 [x] 0.5 points Main page: The user's name is displayed
 [x] 0.5 points Main page: Clicking on the user name will take you to the user's details page.
-[ ] 1.0 point Main page: Books can be filtered by genre.
-[ ] 1.0 point User details: The user's name, e-mail address, and last login date are displayed.
-[ ] 0.5 points User details: The evaluations written by the user are displayed.
+[x] 1.0 point Main page: Books can be filtered by genre.
+[x] 1.0 point User details: The user's name, e-mail address, and last login date are displayed.
+[x] 0.5 points User details: The evaluations written by the user are displayed.
 [x] 0.5 points Admin: You can log in with the data of the admin user
 [x] 0.5 points Admin: Creating a new book is only available with the Admin user
-[] 0.5 points Evaluation: The evaluation form appears.
-[] 0.5 points Evaluation: The form contains the correct elements.
-[ ] 1.0 point Evaluation: Handling faulty cases, error messages, and status maintenance.
+[x] 0.5 points Evaluation: The evaluation form appears.
+[x] 0.5 points Evaluation: The form contains the correct elements.
+[x] 1.0 point Evaluation: Handling faulty cases, error messages, and status maintenance.
 [x] 0.5 points Admin: Modification of book data: available with admin user
 [x] 1.0 point Demanding design
 
 ### Extra tasks (max plus 5 points)
-[ ] 1.0 point Main page: The books are sorted by average rating.
-[ ] 1.0 point Admin: Modification of book data: error handling, status maintenance, successful saving
+[x] 1.0 point Main page: The books are sorted by average rating.
+[x] 1.0 point Admin: Modification of book data: error handling, status maintenance, successful saving
 [x] 1.0 point Book details: Logged-in users should be able to mark books as read.
 [ ] 1.0 point Book details: The users who have read the given book are displayed, with the time of reading.
 [ ] 1.0 point User details: The books read by the user are displayed, in descending order according to the time of reading.

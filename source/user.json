@@ -3,12 +3,37 @@
         "username": "mike",
         "password": "$2y$10$s4jzQ1BeysKOMJjG0IKmkuy.WDG5uKdiM0DV6c81ubC1vhvZk1fUq",
         "email": "mikhael2005@gmail.com",
-        "role": "user"
+        "role": "user",
+        "read": [
+            "book0",
+            "book2",
+            "book1",
+            "book3",
+            "book4"
+        ],
+        "feedbacks": [
+            {
+                "book_id": "book2",
+                "rating": "5",
+                "comment": "Well book!"
+            },
+            {
+                "book_id": "book3",
+                "rating": "3",
+                "comment": "Not good :-("
+            }
+        ],
+        "lastlog": "2024-05-22 17:47:33"
     },
     "admin": {
         "username": "admin",
         "password": "$2y$10$9IRUU5k4YE7PXfHNAJSbV.yodxIDCJuL9sTVarGTxFCqNMC8qwUxK",
         "email": "admin@gmail.com",
-        "role": "admin"
+        "role": "admin",
+        "read": [
+            "book2"
+        ],
+        "feedbacks": [],
+        "lastlog": "2024-05-22 17:38:15"
     }
 }

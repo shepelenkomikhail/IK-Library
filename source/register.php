@@ -45,7 +45,10 @@ if(count($_POST) > 0) {
             'username' => $username,
             'password' => $hashedPassword,
             'email' => $email,
-            'role' => 'user'
+            'role' => 'user',
+            'read' => [],
+            'feedbacks' => [],
+            'lastlog' => date('Y-m-d H:i:s')
         ];
         file_put_contents('user.json',json_encode($reg,JSON_PRETTY_PRINT));
 
